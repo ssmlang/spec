@@ -1,4 +1,4 @@
-# SSM Specification
+# SSM Specification Version 1.1
 ## Overview
 SSM is a lightweight markup language for simple configurations. It supports value assignments, groupings, and comments in a human-readable format similar to INI files, with a more straightforward syntax.
 ## 1. File Structure
@@ -7,6 +7,7 @@ An SSM file consists of:
 - **Grouped Values**: Key-value pairs grouped under a `[group_name]` declaration.
 - **Comments**: Text comments that begin with a `#`.
 Example:
+
 ```ssm
 # This is an ungrouped value
 example_value = "Hello, SSM!"
